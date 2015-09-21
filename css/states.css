@@ -1,0 +1,11 @@
+.mainNav li:hover {
+  border-bottom: .2em solid black;
+}
+
+.contact a:hover {
+  background-color: white;
+}
+
+.stills a:hover {
+  background-color: #BEB7CF;
+}

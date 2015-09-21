@@ -1,0 +1,245 @@
+/*-----VARIOUS-----*/
+
+.title {
+  font-family: "Franklin-I", sans-serif;
+}
+
+.titleLink {
+  font-family: "Franklin-BI", sans-serif;
+}
+
+.name {
+  font-family: "Franklin-B", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*-----HEADER-----*/
+
+header {
+  background-color: white;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+  font-size: .8em;
+}
+
+.mainNav li {
+  border-bottom: .2em solid transparent;
+  transition: border-bottom .3s;
+}
+
+@media (min-width: 34.375em) {
+  header a {
+    font-size: 1em;
+  }
+}
+
+
+/*-----HERO-----*/
+
+.hero {
+  background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  color: white;
+}
+
+.hero h1 {
+  font-family: "Franklin-B", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.hero h2 {
+  font-family: "Franklin-B", sans-serif;
+  font-size: 1.3em;
+}
+
+@media (min-width: 34.375em) {
+  .hero h1 {
+    font-size: 5em;
+  }
+  .hero h2 {
+    font-size: 1.5em;
+  }
+}
+
+/*-----SYNOPSIS-----*/
+
+.synopsis {
+  font-size: 1.5em;
+  color: white;
+  background-color: black;
+  text-align: left;
+}
+
+/*-----SLIDER-----*/
+
+.slider {
+
+}
+
+/*-----CAST-----*/
+
+.cast {
+  background-color: #EDECFC;
+}
+
+.cast > h1 {
+  font-family: "Franklin-B", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.castMember h1 {
+  font-family: "Franklin-B", sans-serif;
+  font-size: 1.6em;
+}
+
+.castMember a {
+  color: #40423E;
+  text-decoration: none;
+}
+
+.castMember p {
+  text-align: left;
+  line-height: 120%;
+}
+
+@media (min-width: 34.375em) {
+  .castMember h1 {
+    font-size: 1.8em;
+  }
+}
+
+/*-----CREW-----*/
+
+.crew > h1 {
+  font-family: "Franklin-B", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.crewMember h1 {
+  font-family: "Franklin-B", sans-serif;
+  font-size: 1.6em;
+}
+
+.crewMember h2 {
+  font-size: 1.2em;
+}
+
+.crewMember a {
+  color: #40423E;
+  text-decoration: none;
+}
+
+.crewMember p {
+  text-align: left;
+  line-height: 120%;
+}
+
+@media (min-width: 34.375em) {
+  .crewMember h1 {
+    font-size: 1.8em;
+  }
+}
+
+/*-----CONTACT/STILLS-----*/
+
+.contact {
+  background-color: #EDECFC;
+}
+
+.contact p, .stills p {
+  font-size: 1.4em;
+}
+
+.contact a, .stills a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+  border: .2em solid black;
+  transition: background-color .3s;
+}
+
+/*-----FESTIVAL-----*/
+
+.festival {
+  background-color: #EDECFC;
+}
+
+.festival > h1 {
+  font-family: "Franklin-B", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.festivalText h1 {
+  font-family: "Franklin-B", sans-serif;
+  font-size: 1.6em;
+}
+
+.festivalText p {
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 120%;
+}
+
+/*-----FOOTER-----*/
+
+footer {
+  background-color: black;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+/*-----CLEARFIX-----*/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,193 @@
+/*-----HEADER-----*/
+
+header{
+ /* padding: 1em;*/
+}
+
+header h1 {
+  display: none;
+}
+
+.mainNav li {
+  width: auto;
+  display: inline-block;
+  margin: 0 .2em;
+  padding: 1em 0;
+}
+
+@media (min-width: 34.375em) {
+  .mainNav li {
+    width: 3.8em;
+    display: inline-block;
+    margin: 0 .8em;
+  }
+}
+
+/*-----HERO-----*/
+
+.hero {
+  padding: 11em 0;
+}
+
+@media (min-width: 34.375em) {
+  .hero {
+      padding: 18em 0;
+  }
+}
+
+/*-----SYNOPSIS-----*/
+
+.synopsis {
+  padding: 2em 1em;
+}
+
+@media (min-width: 34.375em) {
+  .synopsis {
+      padding: 4em;
+  }
+}
+
+/*-----SLIDER-----*/
+
+.slider {
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.slider iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*@media (min-width: 34.375em) {
+  .slider {
+      padding: 3em;
+  }
+}*/
+
+/*-----CAST-----*/
+
+.cast {
+  padding: 3em 1.5em;
+}
+
+.cast > h1 {
+  margin-bottom: 1em;
+}
+
+.castMember h1 {
+  margin-bottom: .6em;
+}
+
+.castMember p {
+  margin-bottom: 2em;
+}
+
+@media (min-width: 34.375em) {
+  .cast p {
+    margin-bottom: 0;
+  }
+}
+
+/*-----CREW-----*/
+
+.crew {
+  padding: 3em 1.5em;
+}
+
+.crew > h1 {
+  margin-bottom: 1em;
+}
+
+.crew h2 {
+  padding: .4em 0 1.2em 0;
+}
+
+.crew p {
+  margin-bottom: 2em;
+}
+
+@media (min-width: 34.375em) {
+  .crew h2 {
+    padding: .4em 0 1.2em 0;
+  }
+
+  .crew p {
+    text-align: left;
+    margin-bottom: 0;
+  }
+}
+
+/*-----CONTACT-----*/
+
+.contact, .stills {
+  padding: 6em 0;
+}
+
+.contact p, .stills p {
+  margin-bottom: 2em;
+}
+
+.contact a, .stills a {
+  padding: .5em 1em;
+}
+
+/*-----FESTIVAL-----*/
+
+.festival {
+  padding: 3em 1.5em;
+}
+
+.festival > h1 {
+  margin-bottom: 1em;
+}
+
+.festivalText h1 {
+  margin: 1em 0;
+}
+
+.festivalText p:nth-child(even) {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 34.375em) {
+  .festival h1 {
+    margin: 0 0 1em 0;
+  }
+}
+
+
+/*-----FOOTER-----*/
+
+footer {
+  padding: 2em 0;
+}
+
+footer a {
+  margin: 0 .6em;
+}
+
+@media (min-width: 34.375em) {
+  footer a {
+    margin: 0 1em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
